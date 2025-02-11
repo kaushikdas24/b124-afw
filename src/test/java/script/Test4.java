@@ -16,5 +16,6 @@ public class Test4 extends BaseTest
 		Reporter.log(driver.getTitle(),true);
 		Page1 p=new Page1(driver);
 		p.setElement(v);
+		int a =10;
 	}
 }
