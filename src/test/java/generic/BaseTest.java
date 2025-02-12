@@ -26,7 +26,7 @@ public class BaseTest {
 			@Optional("chrome")String browser,
 			@Optional("no")String usegrid,
 			@Optional("")String gridURL, 
-			@Optional("")String appURL)
+			@Optional("https://pos.aksharatraining.in/pos/public/")String appURL)
 			throws Exception
 	{
 		if(usegrid.equals("yes"))
