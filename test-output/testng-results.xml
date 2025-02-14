@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Open Chrome Browser in Local System]]>
@@ -22,13 +22,34 @@
     <line>
       <![CDATA[Close the Browser]]>
     </line>
+    <line>
+      <![CDATA[Open Chrome Browser in Local System]]>
+    </line>
+    <line>
+      <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Set ITO]]>
+    </line>
+    <line>
+      <![CDATA[Set ETO]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Close the Browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-02-12T08:42:04 IST" name="Default suite" finished-at="2025-02-12T08:42:08 IST" duration-ms="4679">
+  <suite started-at="2025-02-12T22:49:01 IST" name="Suite" finished-at="2025-02-12T22:49:09 IST" duration-ms="7945">
     <groups>
     </groups>
-    <test started-at="2025-02-12T08:42:04 IST" name="Default test" finished-at="2025-02-12T08:42:08 IST" duration-ms="4679">
+    <test started-at="2025-02-12T22:49:01 IST" name="Test" finished-at="2025-02-12T22:49:09 IST" duration-ms="7945">
       <class name="script.InvalidLogin">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.InvalidLogin@72967906]" started-at="2025-02-12T08:42:04 IST" name="preCondition" finished-at="2025-02-12T08:42:07 IST" duration-ms="3072" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.InvalidLogin@3c19aaa5]" started-at="2025-02-12T22:49:02 IST" name="preCondition" finished-at="2025-02-12T22:49:04 IST" duration-ms="2301" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +63,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
+                <![CDATA[http://localhost:4444]]>
               </value>
             </param>
             <param index="3">
@@ -69,14 +90,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@72967906]" started-at="2025-02-12T08:42:07 IST" name="testInvalidLogin" finished-at="2025-02-12T08:42:08 IST" duration-ms="949" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@3c19aaa5]" started-at="2025-02-12T22:49:04 IST" name="testInvalidLogin" finished-at="2025-02-12T22:49:05 IST" duration-ms="1397" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Error Msg is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.InvalidLogin@72967906]" started-at="2025-02-12T08:42:08 IST" name="postCondition" finished-at="2025-02-12T08:42:08 IST" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.InvalidLogin@3c19aaa5]" started-at="2025-02-12T22:49:05 IST" name="postCondition" finished-at="2025-02-12T22:49:06 IST" duration-ms="469" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the Browser]]>
@@ -84,6 +105,63 @@
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- script.InvalidLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@34123d65]" started-at="2025-02-12T22:49:06 IST" name="preCondition" finished-at="2025-02-12T22:49:07 IST" duration-ms="1738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:4444]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://pos.aksharatraining.in/pos/public/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Chrome Browser in Local System]]>
+            </line>
+            <line>
+              <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the Browser]]>
+            </line>
+            <line>
+              <![CDATA[Set ITO]]>
+            </line>
+            <line>
+              <![CDATA[Set ETO]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@34123d65]" started-at="2025-02-12T22:49:07 IST" name="testValidLogin" finished-at="2025-02-12T22:49:09 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@34123d65]" started-at="2025-02-12T22:49:09 IST" name="postCondition" finished-at="2025-02-12T22:49:09 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

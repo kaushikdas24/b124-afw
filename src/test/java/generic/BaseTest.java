@@ -1,4 +1,4 @@
-package generic;
+	package generic;
 
 import java.net.URL;
 import java.time.Duration;
