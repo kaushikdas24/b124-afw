@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
 	<parameter name="browser" value="chrome"/>  
 	<parameter name="usegrid" value="yes"/> 
-	<parameter name="gridURL" value="{$gridurl}"/> 
+	<parameter name="gridURL" value="http://localhost:4444"/> 
 	<parameter name="appURL" value="https://pos.aksharatraining.in/pos/public/"/> 
     <packages>
       <package name="script"/>
@@ -12,4 +12,5 @@
   </test>
 
 </suite>
+
 
